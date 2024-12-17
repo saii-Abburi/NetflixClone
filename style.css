@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Bruno+Ace+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Open Sans";
+}
+
+.lander {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(Netflix\ BG.jpg);
+}
+
+html {
+    background-color: #000;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* --------------------------------Header css---------------------------------------- */
+header {
+    height: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-right {
+    margin-right: 5vw;
+
+}
+
+header .logo img {
+    padding-left: 8vw;
+    height: 3.7vw;
+}
+
+header .nav-right select {
+    margin-right: 4vw;
+    padding: .5vw 1.2vw;
+    font-size: 1vw;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    border-radius: 8px;
+    background: transparent;
+}
+
+header .nav-right select option {
+    color: black;
+}
+
+header .nav-right button {
+    padding: .5vw 1.2vw;
+    font-size: 1.1vw;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* ---------------------------main section------------------------------ */
+.main-section {
+    text-align: center;
+    margin-top: 10vw;
+}
+
+.main-section .tag-line {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.main-section p {
+    font-size: 1.4vw;
+    margin-top: 2vw;
+}
+
+.main-section .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section .login input {
+    margin-top: 2vw;
+    width: 25vw;
+    height: 3.8vw;
+    font-size: 15px;
+    padding: 0 2px;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 7px;
+}
+
+.main-section .login input::placeholder {
+    color: white;
+}
+
+.main-section .login button {
+    background-color: red;
+    padding: 1vw 1.3vw;
+    font-size: 1.4vw;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 1.9vw;
+    margin-left: .3vw;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+hr {
+    border: 5px solid rgb(63, 62, 62);
+    margin-top: 10vw;
+}
+
+/* ---------------------------------- advertising section----------------------------------------- */
+.advertising {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 9vw;
+    margin-top: 4vw;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.hrline {
+    border: 5px solid rgb(63, 62, 62);
+    margin-top: 5vw;
+}
+
+.advertising .adv-right {
+    margin-left: 2vw;
+}
+
+.advertising .adv-right h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 1vw;
+}
+
+.advertising .adv-right p {
+    font-size: 23px;
+}
+
+.advertising .adv-left {
+    position: relative;
+    top: 0;
+}
+
+.advertising .adv-left img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.advertising .adv-left video {
+    position: absolute;
+    width: 21.7vw;
+    top: 4.8vw;
+    left: 4.2vw;
+
+}
+
+/* ------------------------------- second section -------------------------- */
+.secondsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secondsection .second-left{
+    position: relative;
+    margin-left: 2vw;
+}
+.second-left .inner-second{
+    background-color: black;
+    width: 60%;
+    display: flex;
+    height: 6vw;
+    border: 3px solid rgba(128, 128, 128, 0.7);
+    border-radius: 8px;
+    position:absolute;
+    left: 19%;
+    bottom: 6%;
+}
+.second-left .inner-second .secondtext .colorblue{
+    color: #0071EB;
+}
+.second-left .inner-second img{
+    padding: .4vw;
+}
+.second-left .inner-second .secondtext{
+    margin: 1vw;
+}
+.download-animation {
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.secondsection .secondright{
+    margin-right: 2vw;
+    width: 40%;
+}
+.secondsection .secondright h1{
+    font-size: 45px;
+    font-weight:800;
+}
+
+.adv-left.adv-second video{
+    top: 2vw;
+    left: 6vw;
+}
+.adv-left.adv-second img{
+    width: 100%;
+}
+
+.secondsection .secondright p{
+    font-size: 23px;
+}/* --------------------------- second section -------------------------------- */
+.secondsection{
+    margin-top: 3vw;
+    flex-direction: column-reverse;
+}
+
+.secondsection .secondright{
+    text-align: center;
+    width: 90%;
+}
+.secondsection .secondright h1{
+    font-size: 32px;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+.secondsection .secondright p{
+    font-size: 16px;
+}
+.secondsection .second-left .inner-second{
+    width: 80%;
+    left: 10%;
+    height: 10vh;
+}
+.secondsection .second-left .second-img img{
+    width: 100%;
+}
+
+/* ******************** Frequently Aked Questions****************** */
+.questions , .reason-all {
+    margin: 12px 200px;
+    user-select: none;
+}
+.reasons h1{
+    margin: 12px 200px;
+}
+.questions h1 , .reasons h1{
+    font-size: 25px;
+}
+
+.reason-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.04);
+    padding: 5px 19px;
+    font-size: 11px;
+    font-weight: 500;
+    margin: 12px 0px;
+    min-width: 500px;
+}
+
+.default-ltr-cache-2wgv7n svg{
+    width: 4rem;
+    height: 4rem;
+}
+
+
+.freq-questions li{
+    list-style: none;
+}
+.quest-header{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 23px 19px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.04);
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4,0,0.68,0.06);
+    cursor: pointer;
+    margin-bottom: 12px;
+
+
+}
+.quest-header:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.quest-header p{
+    font-size: 18px
+}
+.quest-answer{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 1rem;
+    padding: 23px 19px;
+    display: none;
+}
+.active{
+    display: block;
+}
+
+/* ******************* FOOTER ************************************************ */
+footer{
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 70px 200px 20px 150px;
+}
+footer div ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+@media (max-width:600px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .lander {
+        background-position: center;
+        background-size: cover;
+        height: 75vh;
+    }
+
+    /* --------------- ---------------header section -css ---------------------------------- */
+    header {
+        height: 13vw;
+        display: flex;
+        align-items: center;
+    }
+
+    header .logo img {
+        margin-top: 2.2vw;
+        height: 3.7vh;
+    }
+
+    header .nav-right select {
+        font-size: 20px;
+        padding: 10px 15px;
+        border: 2px solid white;
+    }
+
+    header .nav-right button {
+        font-size: 17px;
+        cursor: pointer;
+        padding: 12px 15px;
+        border-radius: 12px;
+
+    }
+
+    /* -------------------- main section - css ------------------------ */
+    .main-section {
+        margin-top: 11vh;
+    }
+
+    .main-section .tag-line {
+        font-size: 32px;
+    }
+
+    .main-section p {
+        margin-top: 18px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .main-section .login {
+        flex-direction: column;
+    }
+
+    .main-section .login input {
+        width: 84%;
+        height: 6.5vh;
+        font-size: 18px;
+        margin-top: 18px;
+        color: white;
+    }
+
+    .main-section .login input:hover {
+        font-size: 10px;
+        padding-bottom: 5px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+
+    .main-section .login button {
+        width: 40%;
+        margin-top: 18px;
+        font-size: 18px;
+        padding: 12px 13px;
+        border-radius: 15px;
+    }
+
+    .main-section .login button:hover {
+        cursor: pointer;
+    }
+
+    hr {
+        border: 2px solid rgb(61, 60, 60);
+        height: 7px;
+        background-color: rgb(61, 60, 60);
+        width: 100%;
+    }
+
+    /* -------------------------------- advertising section ------------------------ */
+    .advertising {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .advertising .adv-right h1 {
+        width: 100%;
+        font-size: 32px;
+
+    }
+
+    .advertising .adv-right p {
+        font-size: 18px;
+        margin-top: 3vh;
+        text-align: center;
+    }
+
+    .advertising .adv-left img {
+        width: 400px;
+        margin-bottom: 6vw;
+    }
+
+    .advertising .adv-left video {
+        width: 75.5%;
+        top: 10.8vw;
+        left: 9.4vw;
+    }
+    .reason-all , .questions{
+        margin: 0;
+    }
+    .reasons{
+        margin: 25px 0px;
+    }
+    .reasons h1{
+        margin: 0;
+    }
+    .reason-container{
+        min-width: 100%;
+    }
+    footer{
+        margin: 70px 100px 0px 100px;
+    }
+    }
