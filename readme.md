@@ -21,7 +21,7 @@ Responsive Containers: Adjusts components like text, images, and icons across de
 Clone the repository:
 
 
-git clone https://github.com/your-username/netflix-clone.git
+git clone https://github.com/saii-Abburi/netflix-clone.git
 
 
 Open the project folder:

@@ -223,32 +223,8 @@ hr {
 
 .secondsection .secondright p{
     font-size: 23px;
-}/* --------------------------- second section -------------------------------- */
-.secondsection{
-    margin-top: 3vw;
-    flex-direction: column-reverse;
 }
 
-.secondsection .secondright{
-    text-align: center;
-    width: 90%;
-}
-.secondsection .secondright h1{
-    font-size: 32px;
-    margin-top: 3vh;
-    margin-bottom: 5vh;
-}
-.secondsection .secondright p{
-    font-size: 16px;
-}
-.secondsection .second-left .inner-second{
-    width: 80%;
-    left: 10%;
-    height: 10vh;
-}
-.secondsection .second-left .second-img img{
-    width: 100%;
-}
 
 /* ******************** Frequently Aked Questions****************** */
 .questions , .reason-all {
@@ -475,4 +451,30 @@ footer a{
     footer{
         margin: 70px 100px 0px 100px;
     }
+    .secondsection{
+        margin-top: 3vw;
+        flex-direction: column-reverse;
+    }
+    
+    .secondsection .secondright{
+        text-align: center;
+        width: 90%;
+    }
+    .secondsection .secondright h1{
+        font-size: 32px;
+        margin-top: 3vh;
+        margin-bottom: 5vh;
+    }
+    .secondsection .secondright p{
+        font-size: 16px;
+    }
+    .secondsection .second-left .inner-second{
+        width: 80%;
+        left: 10%;
+        height: 10vh;
+    }
+    .secondsection .second-left .second-img img{
+        width: 100%;
+    }
+    
     }
